@@ -1,10 +1,10 @@
 # Ollama local API frontend chatbot demo
 
-The goal of this project is to demonstrate how to use the Ollama local API to create a simple frontend application. The frontend application is a simple web page that allows the user to input a text and get a chatbot response.
+This project demonstrates how to use the Ollama local API to create a simple frontend chat application. The frontend is one web page where the user inputs text and get a chatbot response.
 
 All prompts are single shot, the goal of this is not to be a functional chatbot, it's above all a simple demo.
 
-You must have Ollama running locally to use this project. You can find the instructions to run Ollama in the https://github.com/ollama/ollama repository. To test this, `sudo systemctl status ollama` should show `active (running)`.
+You must have Ollama running locally. You can find the instructions to install and run Ollama in the https://github.com/ollama/ollama repo: `sudo systemctl status ollama` should show `active (running)`.
 
 To test querying your local ollama directly, you can use curl:
 
